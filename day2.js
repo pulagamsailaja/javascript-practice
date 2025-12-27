@@ -1,5 +1,5 @@
 "use strict";
-/* //Type Conversion
+ //Type Conversion
 
 //1.String Conversion
 let value = true;
@@ -18,7 +18,7 @@ alert(typeof num);
 //3.Boolean Conversion
 let str="Sailaja";
 alert(typeof Boolean(str));
-*/
+
 
 //Basic Operators
 let x=5;
