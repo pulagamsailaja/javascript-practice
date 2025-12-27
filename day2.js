@@ -3,21 +3,21 @@
 
 //1.String Conversion
 let value = true;
-alert(typeof value);
+console.log(typeof value);
 
 value = String("SAILAJA");
-alert(typeof value);
+console.log(typeof value);
 
 //2.Numeric Coversion
 let number ="123";
-alert(typeof number);
+console.log(typeof number);
 
 let num = Number(number);
-alert(typeof num);
+console.log(typeof num);
 
 //3.Boolean Conversion
 let str="Sailaja";
-alert(typeof Boolean(str));
+console.log(typeof Boolean(str));
 
 
 //Basic Operators
@@ -43,26 +43,35 @@ console.log('sailaja'> 123);
 
 //4.Conditional Operators
  let VoteEligibility;
- let age = prompt('Enter your age:','');
+ let age = 20;
  if(age>=18)
- { alert('Eligible to vote');
+ { console.log('Eligible to vote');
     VoteEligibility='True';
  }
  else
- { alert('Not Eligible');
+ { console.log('Not Eligible');
     VoteEligibility='False';
  }
 console.log(VoteEligibility);
 
  //5.Logical Operators
 if(1&&1)
-{ alert(true);
+{ console.log(true);
 }
 
 if(1||0)
-{ alert(true);
+{ console.log(true);
 }
 
 if(!0)
-{ alert(true);
+{ console.log(true);
+}
+
+
+let num1 = 7;
+
+if (num1 % 2 === 0) {
+  console.log("Even number");
+} else {
+  console.log("Odd number");
 }
