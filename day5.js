@@ -1,4 +1,4 @@
-"use strcit";
+"use strict";
 
 //Map
 let num =[1,2,3,4];
