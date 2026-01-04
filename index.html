@@ -1,10 +1,26 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <title>FORM VALIDATION</title>
     </head>
     <body>
-        <h1>People entered:</h1>
-        <h1 id="count">0</h1>
+        <h3 id="header">REGISTER</h3>
+        <form action="">
+            <table>
+                <tr><td>First name:</td><td><input type="text" placeholder="First name" required ></td></tr>
+                <tr><td>Last name:</td><td><input type="text" placeholder="Last name" required ></td></tr>
+                <tr><td>Email ID:</td><td><input type="email" placeholder="xyz@gmail.com" required ></td></tr>
+                <tr><td>Password:</td><td><input type="password" class="pwd" id="pwd" onkeydown="check()" required></td><td><span id="msg"></span></td></tr>
+                <tr><td>Re-type Password:</td><td><input type="password" class="pwd" id="pwd2" required></td><td><span id="msg2"></span></td></tr>
+                <tr><td>College ID:</td><td><input type="text"></td></tr>
+                <tr><td id="dept">Select Dept:</td><td><select id="input"><option>Select any one</option><option>CSE</option><option>ECE</option><option>MECH</option><option>IT</option></td></tr>
+                <tr>
+                    <td>Year:</td>
+                    <td><input type="radio" name="year">1st<input type="radio" name="year">2nd<input type="radio" name="year">3rd<input type="radio" name="year">4th</td>
+                </tr>
+                <tr><td><button class="btn">SUBMIT</button></td><td><button type="reset" class="btn">RESET</button></td></tr>
+            </table>
+        </form>   
     </body>
-    <script src="day2.js"></script>
+     <script src="day9.js"></script>
 </html>
