@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+form {
+  max-width: 350px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px;
+}
+
+small {
+  color: red;
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
