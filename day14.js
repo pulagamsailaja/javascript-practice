@@ -1,4 +1,5 @@
 "use strict";
+
 //Scope
 let x = 10; 
 
@@ -37,3 +38,24 @@ function outer() {
 let counter = outer();
 counter(); // 1
 counter(); // 2
+
+//Nested Functions
+function fun1(){
+    console.log("Function 1");
+    function fun2(){
+        console.log("Function 2");
+    }
+    return fun2;
+}
+let exmp=fun1();
+exmp();
+
+//Callbacks
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback();
+}   
+function day14() {
+    console.log("TODAY IS DAY 14");
+}
+greet("Sailaja", day14);
