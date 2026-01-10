@@ -80,9 +80,8 @@ const intervalId = setInterval(() => {
   console.log(count2);
   count2--;
 
-  if (count < 0) {
+  if (count2 < 0) {
     clearInterval(intervalId);
     console.log("Done in 5 Seconds");
   }
 }, 1000);
-
