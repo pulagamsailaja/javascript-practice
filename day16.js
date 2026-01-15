@@ -1,5 +1,5 @@
 "use strict";
-/*
+
 // Asynchronous function using callbacks (Callback Hell)
 function loadDashBoard(id, callback) {
     let error;
@@ -45,7 +45,7 @@ function ErrorHandler(error) {
 loadDashBoard(1, ErrorHandler);
 
 // The above code demonstrates "Callback Hell" due to nested callbacks making it hard to read and maintain.
-*/
+
 //Promises
 const myOrder = new Promise((resolve, reject) => {
   let success = false; 
@@ -83,6 +83,7 @@ const checkNumber = (num) => {
 };
 
 checkNumber(15).then(output => console.log(output)).catch(console.error);
+
 
 //challenge3
 Promise.resolve(5)
